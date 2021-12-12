@@ -19,5 +19,27 @@
 *.tar.gz
 *.rar
 
+# target files
+crmdemo/target/*
+
+# macOS Files
+.DS_Store
+._.*
+
+#vscode
+.vscode/
+
+#idea
+.idea/
+.iml
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# lst file
+*.lst
+
+#other
+crmdemo/.project
+crmdemo/.classpath
+crmdemo/.settings/*
